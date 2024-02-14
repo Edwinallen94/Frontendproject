@@ -75,7 +75,7 @@ header {
   width: 360px;
   min-height: 100vh;
   padding: 20px;
-  background: var(--bg-color);
+  background: rgb(118, 109, 109);
   box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
   transition: 0.3s;
 }
@@ -161,7 +161,7 @@ header {
 }
 
 .btn-buy:hover {
-  background: var(--text-color);
+  /* background: var(--text-color); */
 }
 
 #close-cart {
@@ -221,14 +221,14 @@ header {
   position: absolute;
   bottom: 0;
   right: 0;
-  background: var(--text-color);
+  /* background: var(--text-color); */
   color: var(--bg-color);
   padding: 10px;
   cursor: pointer;
 }
 
 .add-cart:hover {
-  background: hsl(249, 32%, 17%);
+  background: hsl(251, 100%, 50%);
 }
 
 /* Breakpoints */
